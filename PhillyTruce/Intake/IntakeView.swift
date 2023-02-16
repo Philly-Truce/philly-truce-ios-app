@@ -18,7 +18,7 @@ struct IntakeView: View {
             
             Spacer()
             
-            CommunityViewButton(text: "Cancel") {
+            DarkBlueButton(text: "Cancel") {
                 appState = .community
             }
         }

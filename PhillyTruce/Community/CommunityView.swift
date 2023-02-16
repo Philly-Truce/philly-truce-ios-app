@@ -18,7 +18,7 @@ struct CommunityView: View {
             VStack {
                 Spacer()
                 
-                CommunityViewButton(text: "Get Help") {
+                DarkBlueButton(text: "Get Help") {
                     appState = .intake
                 }
             }

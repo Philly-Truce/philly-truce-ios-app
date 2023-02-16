@@ -1,5 +1,5 @@
 //
-//  CommunityViewButton.swift
+//  DarkBlueButton.swift
 //  PhillyTruce
 //
 //  Created by Daveed Balcher on 2/3/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CommunityViewButton: View {
+struct DarkBlueButton: View {
     var text: String
     var action: ()->()
     

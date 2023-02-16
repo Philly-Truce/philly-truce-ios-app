@@ -14,7 +14,7 @@
 		17FD7942298DD81A009A0CA2 /* PhillyTruceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7941298DD81A009A0CA2 /* PhillyTruceTests.swift */; };
 		17FD795C298DD9E1009A0CA2 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD795B298DD9E1009A0CA2 /* CommunityView.swift */; };
 		17FD795F298DDA0D009A0CA2 /* IntakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD795E298DDA0D009A0CA2 /* IntakeView.swift */; };
-		17FD7963298DDD85009A0CA2 /* CommunityViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7962298DDD85009A0CA2 /* CommunityViewButton.swift */; };
+		17FD7963298DDD85009A0CA2 /* DarkBlueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7962298DDD85009A0CA2 /* DarkBlueButton.swift */; };
 		17FD7965298EA4AE009A0CA2 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7964298EA4AE009A0CA2 /* AppState.swift */; };
 		17FD7967298EA9B2009A0CA2 /* YouTubeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7966298EA9B2009A0CA2 /* YouTubeVideo.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,7 @@
 		17FD7941298DD81A009A0CA2 /* PhillyTruceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhillyTruceTests.swift; sourceTree = "<group>"; };
 		17FD795B298DD9E1009A0CA2 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		17FD795E298DDA0D009A0CA2 /* IntakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeView.swift; sourceTree = "<group>"; };
-		17FD7962298DDD85009A0CA2 /* CommunityViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewButton.swift; sourceTree = "<group>"; };
+		17FD7962298DDD85009A0CA2 /* DarkBlueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkBlueButton.swift; sourceTree = "<group>"; };
 		17FD7964298EA4AE009A0CA2 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		17FD7966298EA9B2009A0CA2 /* YouTubeVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +86,7 @@
 				17FD7930298DD819009A0CA2 /* PhillyTruceApp.swift */,
 				17FD7964298EA4AE009A0CA2 /* AppState.swift */,
 				17FD7932298DD819009A0CA2 /* ContainerView.swift */,
+				17FD7962298DDD85009A0CA2 /* DarkBlueButton.swift */,
 				17FD7960298DDD5C009A0CA2 /* Community */,
 				17FD7961298DDD66009A0CA2 /* Intake */,
 				17FD7934298DD81A009A0CA2 /* Assets.xcassets */,
@@ -114,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				17FD795B298DD9E1009A0CA2 /* CommunityView.swift */,
-				17FD7962298DDD85009A0CA2 /* CommunityViewButton.swift */,
 				17FD7966298EA9B2009A0CA2 /* YouTubeVideo.swift */,
 			);
 			path = Community;
@@ -234,7 +234,7 @@
 				17FD795F298DDA0D009A0CA2 /* IntakeView.swift in Sources */,
 				17FD7965298EA4AE009A0CA2 /* AppState.swift in Sources */,
 				17FD795C298DD9E1009A0CA2 /* CommunityView.swift in Sources */,
-				17FD7963298DDD85009A0CA2 /* CommunityViewButton.swift in Sources */,
+				17FD7963298DDD85009A0CA2 /* DarkBlueButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
