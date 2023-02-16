@@ -8,13 +8,25 @@
 import SwiftUI
 
 struct IntakeView: View {
+    @Binding var appState: AppState
+    
     var body: some View {
-        Text("Intake")
+        VStack {
+            Spacer()
+            
+            Text("Intake")
+            
+            Spacer()
+            
+            CommunityViewButton(text: "Cancel") {
+                appState = .community
+            }
+        }
     }
 }
 
 struct IntakeView_Previews: PreviewProvider {
     static var previews: some View {
-        IntakeView()
+        IntakeView(appState: .constant(.intake))
     }
 }
