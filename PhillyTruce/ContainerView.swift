@@ -15,7 +15,7 @@ struct ContainerView: View {
         case .community:
             CommunityView(appState: $appState)
         case .intake:
-            IntakeView()
+            IntakeView(appState: $appState)
         }
     }
 }

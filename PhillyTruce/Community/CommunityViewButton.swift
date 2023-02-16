@@ -9,13 +9,13 @@ import SwiftUI
 
 struct CommunityViewButton: View {
     var text: String
-    @Binding var appState: AppState
+    var action: ()->()
     
     private let darkBlue = Color(red: 15/255, green: 45/255, blue: 115/255)
     
     var body: some View {
         Button {
-            appState = .intake
+            action()
         } label: {
             Text(text)
                 .foregroundColor(.white)
